@@ -1,0 +1,3 @@
+this is first sentence, it contains phrase!
+this is second sentence, it contains PHRAZA!
+they all start from non capitalized letters.
