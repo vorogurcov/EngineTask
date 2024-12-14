@@ -18,9 +18,9 @@ public:
     Subject(const std::filesystem::path& path);
     std::string replace_words(const ArgMap& args);
     std::string find_phrase(const ArgMap& args);
-    std::string capitalize_words(const ArgMap&);
-    std::string capitalize_sentences(const ArgMap&);
-    std::string number_sentences(const ArgMap&);
+    std::string capitalize_words(const ArgMap& args);
+    std::string capitalize_sentences(const ArgMap& args);
+    std::string number_sentences(const ArgMap& args);
 };
 
 

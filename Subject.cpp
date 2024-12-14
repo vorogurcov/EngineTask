@@ -36,7 +36,7 @@ std::string Subject::find_phrase(const ArgMap& args) {
 }
 
 
-std::string Subject::capitalize_words(const ArgMap&) {
+std::string Subject::capitalize_words(const ArgMap& args) {
     bool capitalize = true;
 
     for (char& ch : document) {
@@ -53,7 +53,7 @@ std::string Subject::capitalize_words(const ArgMap&) {
 }
 
    
-std::string Subject::capitalize_sentences(const ArgMap&) {
+std::string Subject::capitalize_sentences(const ArgMap& args) {
     bool capitalize = true;
 
     for (size_t i = 0; i < document.length(); ++i) {
@@ -70,7 +70,7 @@ std::string Subject::capitalize_sentences(const ArgMap&) {
 }
 
 
-std::string Subject::number_sentences(const ArgMap&) {
+std::string Subject::number_sentences(const ArgMap& args) {
     std::ostringstream oss;
     size_t sentence_number = 1;
     bool new_sentence = true;
